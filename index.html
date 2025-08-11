@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device‑width,initial‑scale=1.0">
+  <title>Introducing ChatGPT</title>
+</head>
+<body>
+  <header>
+    <h1>Introducing ChatGPT</h1>
+    <nav>
+      <ul>
+        <li><a href="#overview">Overview</a></li>
+        <li><a href="#features">Latest Advancements</a></li>
+        <li><a href="#media">Media</a></li>
+        <li><a href="#feedback">Get Started</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="overview">
+      <h2>Overview</h2>
+      <p>ChatGPT is a generative AI chatbot developed by OpenAI, released in November 2022, and now powered by GPT‑5 as of August 7, 2025 :contentReference[oaicite:0]{index=0}.</p>
+    </section>
+
+    <section id="features">
+      <h2>Latest Advancements</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Feature</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>GPT‑5</td>
+            <td>Described as a “PhD‑level expert in your pocket”—enhanced coding, factual accuracy, nuance, and safety, with $200/month subscription access :contentReference[oaicite:1]{index=1}.</td>
+          </tr>
+          <tr>
+            <td>Web Search Integration</td>
+            <td>Launched October 2024 and rolled out to all users by early 2025; plus-sidebar sources for validation :contentReference[oaicite:2]{index=2}.</td>
+          </tr>
+          <tr>
+            <td>Privacy Update</td>
+            <td>Feature allowing indexed shared chats was removed by early August 2025 after privacy backlash; OpenAI is working to de‑index ~4,500 exposed chats :contentReference[oaicite:3]{index=3}.</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="media">
+      <h2>Media Preview</h2>
+      <!-- Example: Embedded banner image or video -->
+      <img src="banner‑chatgpt.jpg" alt="ChatGPT interface overview" width="600">
+    </section>
+
+    <section id="feedback">
+      <h2>Get Started</h2>
+      <form action="/signup" method="post">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name"
+               placeholder="Your full name" required autocomplete="name">
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email"
+               placeholder="you@example.com" required autocomplete="email">
+
+        <label for="subscription">Subscription Tier</label>
+        <select name="subscription" id="subscription" required autocomplete="off">
+          <option value="">Select...</option>
+          <option value="free">Free</option>
+          <option value="plus">Plus</option>
+          <option value="pro">Pro ($200/month)</option>
+        </select>
+
+        <label for="newsletter">
+          <input type="checkbox" id="newsletter" name="newsletter">
+          Subscribe to newsletter
+        </label>
+
+        <label for="referrer">How did you hear about us?</label>
+        <input type="text" id="referrer" name="referrer"
+               placeholder="e.g., friend, article, social media" autocomplete="off">
+
+        <button type="submit">Sign Up</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 OpenAI. All rights reserved.</p>
+  </footer>
+</body>
+</html>
